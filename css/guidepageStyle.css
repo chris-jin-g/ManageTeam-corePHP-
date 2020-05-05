@@ -1,0 +1,147 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: #0099CC; }
+
+.top-nav-collapse {
+  background-color: #0099CC; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #0099CC; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #0099CC; }
+#topic{
+  font-size: 40px;
+}
+.md-form select{
+  margin-left: 2.5rem !important;
+ width: calc(100% - 2.5rem) !important; 
+ padding-left: 1.5rem !important;
+}
+span.fa.fa-star.checked{
+  color:orange;
+}
+span.fa.fa-star{
+  color:lightgrey;
+  text-shadow: 0 0 5px orange;
+}
+
+.filtersel{
+  background-color:#0099CC;
+}
+
+.filtersel i{
+  margin-right: 10px;
+}
+.forHover:hover{
+  background-color: lightgrey;
+}
+#tourGoList{
+  position:absolute;
+  z-index:100;
+  top:42px;
+  left:55px;
+  width:calc(96% - 55px);
+  border:2px solid #4285F4;
+  border-top:none;
+  background-color:white;
+}
+#tourfilter{
+  padding:30px 15px;
+  /* z-index: -10; */
+  /* background-color:rgba(255, 99, 71, 0.3); */
+  background-color: rgba(214, 224, 226, 0.4);
+  /* max-height: 1100px !important; */
+  height: -moz-max-content !important;
+  height: -webkit-max-content !important;
+  height: -o-max-content !important;
+  height: -ms-max-content !important;
+  max-height: 1500px !important;
+    /* background-color: rgba(255, 165, 0, 0.5); */
+
+}
+#tourshow{
+  padding:15px;
+  padding-left:30px;
+}
+.guideColor{
+    color:#0099CC;
+}
+
+
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.3);
+}
+
+.card.hovercard .cardheader {
+    background-color: #0099CC;
+    height: 100px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 10%;
+    padding-top: 5%;
+}
+
+/*
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+} */
+
+
+

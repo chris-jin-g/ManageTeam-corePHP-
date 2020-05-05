@@ -1,0 +1,130 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+
+}
+
+/* Full Page Carousel itself*/
+
+/* Navbar animation */
+.navbar {
+  background-color: #ec407a; }
+
+.top-nav-collapse {
+  background-color: #ec407a; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #ec407a; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #ec407a; }
+#topic{
+  font-size: 40px;
+}
+.md-form .custom-file{
+  margin-left: 2.5rem !important;
+ width: calc(100% - 2.5rem) !important; 
+ padding-left: 1.5rem !important;
+}
+.md-form select{
+    margin-left: 2.5rem !important;
+   width: calc(100% - 2.5rem) !important; 
+   padding-left: 1.5rem !important;
+}
+.fortour{
+    margin-top: 40px;
+}
+.forguide{
+    margin-top: 70px;
+}
+/* for multi-select */
+
+.bootstrap-select .bs-ok-default::after {
+    width: 0.3em;
+    height: 0.6em;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(45deg) translateY(0.5rem);
+}
+
+.btn.dropdown-toggle:focus {
+    outline: none !important;
+}
+
+#avatar{
+  border-radius: 50%;
+  border:4px solid rgba(43, 187, 173, 0.2);
+}
+span.fa.fa-star.checked{
+  color:orange;
+}
+span.fa.fa-star{
+  color:lightgrey;
+  text-shadow: 0 0 5px orange;
+}
+
+.leftmenu.active{
+    background-color:rgba(43,187,173,0.8);
+    color:white;
+}
+.leftmenu{
+    color:rgb(43,187,173);
+}
+table.table td.tablebtn{
+  padding:0.5rem !important;
+}
+.bootstrap-select .dropdown-menu{
+  width:400px !important;
+  min-width:400px !important;
+  max-width:400px !important;
+  height:300px !important;
+  min-height: 300px !important;
+  max-height: 300px !important;
+}
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark{
+  right: 30px !important;
+}
+.datepicker table tr td.today{
+  background-color:#ec407a !important;
+
+}
+
+
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(214, 224, 226, 0.3);
+}
+
+.card.hovercard .cardheader {
+  background-color: #0099CC;
+  height: 100px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+  padding: 10%;
+  padding-top: 5%;
+}

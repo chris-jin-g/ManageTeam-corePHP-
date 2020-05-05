@@ -1,0 +1,93 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgb(170, 102, 204); }
+
+.top-nav-collapse {
+  background-color: #aa66cc; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #aa66cc; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #aa66cc; }
+#topic{
+  font-size: 40px;
+}
+.md-form select{
+  margin-left: 2.5rem !important;
+ width: calc(100% - 2.5rem) !important; 
+ padding-left: 1.5rem !important;
+}
+span.fa.fa-star.checked{
+  color:orange;
+}
+span.fa.fa-star{
+  color:lightgrey;
+  text-shadow: 0 0 5px orange;
+}
+
+.filtersel{
+  background-color:#aa66cc;
+}
+
+.filtersel i{
+  margin-right: 10px;
+}
+.forHover:hover{
+  background-color: lightgrey;
+}
+#tourGoList{
+   position:absolute;
+   z-index:100;
+   top:42px;
+   left:55px;
+   width:calc(96% - 55px);
+   border:2px solid #4285F4;
+   border-top:none;
+   background-color:white;
+}
+#tourDate:hover{
+  cursor: pointer;
+}
+#tourfilter{
+  padding:30px 15px;
+  /* z-index: -10; */
+  /* background-color:rgba(255, 99, 71, 0.3); */
+  background-color: rgb(223, 223, 233);
+  /* max-height: 1100px !important; */
+  /* height: max-content !important; */
+  height: -moz-max-content !important;
+    height: -webkit-max-content !important;
+    height: -o-max-content !important;
+    height: -ms-max-content !important;
+    max-height: 1500px !important;
+   
+
+}
+#tourshow{
+  padding:15px;
+  padding-left:30px;
+}
+
+
+

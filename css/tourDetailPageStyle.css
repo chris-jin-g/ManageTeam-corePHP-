@@ -1,0 +1,83 @@
+html,
+body,
+.view {
+  height: 100%; 
+
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgb(170, 102, 204); }
+
+.top-nav-collapse {
+  background-color: #aa66cc; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #aa66cc; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #aa66cc; }
+#topic{
+  font-size: 40px;
+}
+.md-form select{
+  margin-left: 2.5rem !important;
+ width: calc(100% - 2.5rem) !important; 
+ padding-left: 1.5rem !important;
+}
+span.fa.fa-star.checked{
+  color:orange;
+}
+span.fa.fa-star{
+  color:lightgrey;
+  text-shadow: 0 0 5px orange;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.3);
+}
+
+.card.hovercard .cardheader {
+    background-color: #0099CC;
+    height: 100px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 10%;
+    padding-top: 5%;
+}
+
+
